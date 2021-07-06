@@ -1,0 +1,121 @@
+.banner-free {
+  position: fixed;
+  height: 50px !important;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  z-index: 99999;
+  padding-top: 5px;
+  font-family: Muli, sans-serif;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+.banner-free .banner-free-first-text,
+.banner-free .banner-free-second-text,
+.banner-free .banner-free-third-text {
+  color: #000;
+  margin-right: 5px;
+}
+.banner-free .banner-free-second-text {
+  color: #882cfd !important;
+}
+.banner-free .banner-free-img {
+  width: 110px;
+}
+.banner-free .banner-free-first-text,
+.banner-free .banner-free-second-text,
+.banner-free .banner-free-third-text {
+  color: #000;
+  margin-right: 5px;
+}
+.small,
+small {
+  font-size: 90%;
+  font-weight: 400;
+  font-family: Muli, sans-serif;
+}
+.banner-free .btn-banner-free {
+  width: 160px;
+  height: 40px;
+  background: #7e1afd;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.w-100 {
+  width: 100% !important;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.contain {
+  border-radius: 0px;
+  background: rgba(226, 215, 206, 0.996);
+  height: 734px;
+  min-height: 50px;
+  border: 0px none rgb(0, 0, 0);
+}
+.Headstart {
+  font-family: var(--text-family-h3) !important;
+  /* font-size: var(--text-size-h3); */
+  color: var(--text-color-h3) !important;
+}
+.subtitle {
+  font-style: italic;
+  font-size: 20px;
+}
+.form-text {
+  display: block;
+  margin-top: 0.25rem;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+.footer-contain {
+  border-radius: 0px;
+  background-clip: initial;
+  background-color: rgb(240, 240, 240);
+  height: 320px;
+  min-height: 200px;
+  border: 0px none rgb(0, 0, 0);
+}
+.privacy {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-style: initial;
+  color: rgb(100, 111, 121);
+  border: 2.5px solid rgb(255, 255, 255);
+  box-shadow: black 0px 0px 0px 0px;
+  --menu-item-background: rgba(245, 248, 250, 0.5);
+  --menu-item-background--hover: rgba(100, 111, 121, 0.148438);
+  --menu-item-background-active: #F5F8FAFF;
+  padding: 0px 35px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: rgba(245, 248, 250, 0.5);
+  cursor: pointer;
+  padding-top: 11px !important;
+}
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pl-1, .px-1 {
+  padding-left: .25rem!important;
+}
+.d-block {
+  display: block!important;
+}
